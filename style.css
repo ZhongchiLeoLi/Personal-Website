@@ -1,271 +1,313 @@
-@charset "utf-8";
-
-body{
-    background-color: #FFFFFF;
-    margin:0px;
-    padding:0px;
+@font-face {
+  font-family: Mandalore;
+  src: url("fonts/Mandalore-K77lD.otf");
+}
+@font-face {
+  font-family: Vanchrome-front;
+  src: url("fonts/vanchrome.front.ttf");
+}
+@font-face {
+  font-family: Vanchrome-edge;
+  src: url("fonts/vanchrome.edge.ttf");
+}
+@font-face {
+  font-family: Valorant;
+  src: url("fonts/Valorant\ Font.ttf");
 }
 
-ul{
-    list-style: none;
+body {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background-image: url("images/background4.jpg");
+  background-size: cover;
+  /* padding: 0px, 15px; */
 }
 
-a{
-    text-decoration: none;
+/* Header */
+header {
+  padding: 50px 15px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* background-color: #f4f4f4; */
 }
 
-section{
-    width: 100%;
-    height: 575px;
-    background-color: #f6f5f5;
-    /*background-image:url();
-    background-repeat:no-repeat;
-    background-size: cover;
-    */
-    position: relative;
-}
-
-nav{
-    display: flex;
-    width: 65%;
-    margin-right: auto;
-    margin-left: auto;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    background-color: #FFFFFF;
-    box-shadow: 2px 2px 12 px rgba(0, 0, 0, 0.2);
-    padding: 0px 16.5%;
-    
-}
-
-nav ul{
-    display: flex;
-}
-
-nav ul li a{
-    margin: 30px;
-    font-family: monospace;
-    color: #808080;
-    font-size: 15px;
-    font-weight: 700;
-}
-
-.logo{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #000000;
-    font-size: 22px;
-
-}
-
-.active{
-    font-weight: 1000;
-    font-size: 16px;
-    color: #201e1e;
-}
-
-.text-container p:nth-child(1){
-    font-family: monospace;
-    font-weight: bolder;
-    color: #6d6d6d;
-    font-size: 22px;
-}
-
-.text-container p:nth-child(2){
-    font-family: monospace;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: #1a1a1a;
-    font-size: 60px;
-}
-
-.text-container p:nth-child(3){
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #403e3e;
-    font-size: 24px;
-    line-height: 30px;
-}
-
-.text-container p{
-    line-height: 0px;
-    margin: 45px 0px 25px;
-}
-
-.text-container{
-    position: absolute;
-    left: 22%;
-    top: 300px;
-    width: 35%;
-    transform: translate(-13%, -42%);
-}
-
-
-
-.social_media a {
-    font-size: 24px;
-    color: #1a1a1a;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #e6e3e3;
-    margin: 20px 10px;
-    border-radius: 50%; 
-}
-
-.social_media a:nth-child(1):hover{
-    color: #b30de6;
-}
-
-.social_media a:nth-child(2):hover{
-    color: #0d47e6;
-}
-
-.social_media a:nth-child(3):hover{
-    color: #d14811;
-}
-
-.social_media{
-    display: flex;
-}
-
-.profile{
-    height: 70%;
-    position: absolute;
-    top:20%;
-    left: 75%;
-    transform: translateX(-70%);
-}
-
-.project-container{
-    height: 1000px;
-    width: 67.5%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    background-color: #FFFFFF;
-    padding: 2% 0% 0px 0%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-flow: wrap;
-}
-
-.box-1,.box-2, .box-3, .box-4, .box-5, .box-6{
-    height: 420px;
-    width:29.9%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row;
-}
-
-
-
-.box-1{
-    background-image: url("image/web prototype.png");
-    background-size: cover;
-}
-
-
-.box-2{
-    background-image: url("image/game developing.PNG");
-    background-size: cover;
-}
-
-
-.box-3{
-    background-image: url("image/image-manipulation.PNG");
-    background-size: cover;
-}
-
-.box-4{
-    background-image: url("image/simulation constructing.PNG");
-    background-size: cover;
-}
-
-.box-5{
-    background-image: url("image/graphic design.png");
-    background-size: cover;
-}
-
-.box-6{
-    background-image: url("image/fashion design.png");
-    background-size: cover;
-}
-
-
-.box-1 a,
-.box-2 a,
-.box-3 a,
-.box-4 a,
-.box-5 a,
-.box-6 a{
-    width: 100%;
-    height: 100%;
-}
-
-.box-1 a button, 
-.box-2 a button, 
-.box-3 a button, 
-.box-4 a button,
-.box-5 a button,
-.box-6 a button{
-    width: 100%;
-    height: 420px; 
-    background-color: rgba(255, 255, 255, 0.253);
-    
-    text-align: start;
-    border: none;
-    outline: none;
-    border-radius: 0px;
-
-    font-family: monospace;
-    font-size: 28px;
-    font-weight: bold;
-    text-align: left;
-    padding-top: 85%;
-    padding-left: 6%;
-
-    cursor: pointer;
-    transition-duration: 250ms;
-}
-
-.box-1 button:hover, 
-.box-2 button:hover, 
-.box-3 button:hover, 
-.box-4 button:hover,
-.box-5 button:hover,
-.box-6 button:hover{
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0);
-    /*
-    animation-name: background-color;
-    animation-duration: 500ms;
-    */
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
   }
+}
 
-@keyframes background-color {
-    100% {
-      background-color: rgba(255, 255, 255, 0);
-    }
+header > img {
+  width: 100%;
+  height: 100%;
+  max-width: 65px;
+  display: flex;
+  /* margin-left: 40px; */
+}
+
+@media (max-width: 650px) {
+  header > img {
+    /* margin: 0 auto; */
   }
-
-@media screen and (max-width: 1200px){
-    .box-1, .box-2, .box-3, .box-4, .box-5, .box-6{
-        width: 40%;
-    }
 }
 
-@media screen and (max-width: 600px){
-    .box-1, .box-2, .box-3, .box-4, .box-5, .box-6{
-        width: 80%;
-    }
+nav {
+  width: 25vw;
+  min-width: 300px;
+  font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  letter-spacing: 0.05em;
+  font-size: 20px;
+  line-height: 0px;
 }
 
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
+li {
+  list-style: none;
+}
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover:before {
+  content: "// ";
+}
+
+/* Side Nav Bar */
+.sidenav {
+  height: 70%; /* Full-height: remove this if you want "auto" height */
+  min-height: 700px;
+  width: 250px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  /* background-color: gray; */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: auto, auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sidenav a {
+  margin: 10px 0px;
+  margin-left: 15px;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+  line-height: 1.22222;
+  font-weight: bolder;
+  letter-spacing: 0.05em;
+  font-size: 20px;
+  color: black;
+  display: block;
+  -webkit-transition: background-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
+}
+
+.sidenav a:hover,
+.sidenav a:active,
+.sidenav a:focus {
+  background-color: black;
+  color: white;
+}
+
+.sidenav a.active:before {
+  content: "// ";
+}
+
+.sidenav a.active {
+  background-color: black;
+  color: white;
+}
+
+.sidenav a:hover:before,
+.sidenav a:active:before {
+  content: "// ";
+}
+
+/* Page Content */
+.main {
+  position: relative;
+  margin-left: 250px; /* Same as the width of the sidebar */
+  margin-top: 0px;
+  padding-right: 15px;
+  /* padding: 0px 10px; */
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+/* Hero */
+.hero {
+  padding: 15px 15px;
+  padding-right: 0px;
+  /* background-color: aliceblue; */
+  height: 75vh;
+  min-height: 620px;
+  text-align: right;
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero > h1 {
+  font-family: Vanchrome-front;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 150px;
+  line-height: 150px;
+  margin-bottom: 0px;
+  /* line-height: 90px; */
+}
+
+.hero > h3 {
+  font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  font-size: 28px;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social > a {
+  color: white;
+  font-size: 20px;
+  height: 36px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+  margin-top: 10px;
+  background-image: url("images/icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.cta > p {
+  font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+/* Projects */
+.project {
+  height: 750px;
+  width: 100%;
+  min-width: 800px;
+  margin: 150px 0px;
+  /* padding-right: 15px; */
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 70px;
+  height: 100%;
+  width: 100%;
+  border-style: solid;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 50px;
+  margin: 0px, 0px;
+  padding: 15px 30px;
+}
+
+.content h3 {
+  font-family: Vanchrome-front;
+  font-weight: 100;
+  font-size: 30px;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  color: white;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 170px;
+}
+
+.icons img {
+  width: 100%;
+  height: 100%;
+  max-width: 27px;
+  display: flex;
+}
+
+#content1 {
+  background-image: url("images/joya-cover.png");
+  background-size: cover;
+  background-position-y: bottom;
+  filter: grayscale();
+  transition: filter 0.5s;
+}
+
+#content1:hover {
+  filter: none;
+}
+
+.button-container {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.button-container a {
+  width: 300px;
+  font-family: Vanchrome-front;
+  /* font-weight: 100; */
+  font-size: 40px;
+  /* margin: 20px 50px; */
+  padding: 20px 50px;
+  color: white;
+  background-color: black;
+  transition: background-color 0.3s;
+}
+
+.button-container a:hover {
+  background-color: white;
+  color: black;
+}
+
+.button-container a:hover:before {
+  content: "// ";
+}
