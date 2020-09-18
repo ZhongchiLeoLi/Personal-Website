@@ -51,7 +51,7 @@ header > img {
 
 nav {
   width: 25vw;
-  min-width: 300px;
+  min-width: 400px;
   font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
   font-style: normal;
   font-weight: bolder;
@@ -177,7 +177,7 @@ nav a:hover:before {
   padding: 15px 15px;
   padding-right: 0px;
   /* background-color: aliceblue; */
-  height: 65vh;
+  height: 75vh;
   min-height: 550px;
   text-align: right;
   justify-content: flex-end;
@@ -228,7 +228,7 @@ nav a:hover:before {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 80px;
+  padding-top: 8vh;
 }
 
 .cta > p {
@@ -272,7 +272,7 @@ nav a:hover:before {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 70px;
+  margin-top: 60px;
   height: 100%;
   width: 100%;
   border-style: solid;
