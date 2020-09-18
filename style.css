@@ -297,12 +297,16 @@ nav a:hover:before {
   .hero > h1 {
     font-size: 25vw;
     line-height: 24vw;
+    margin-top: 8%;
   }
   .hero > h3 {
     font-size: 4.65vw;
   }
   .social > a {
     font-size: 4.5vw;
+  }
+  .cta {
+    padding-top: 20%;
   }
   .cta > p {
     font-size: 4.2vw;
