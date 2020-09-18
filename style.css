@@ -177,7 +177,7 @@ nav a:hover:before {
   padding: 15px 15px;
   padding-right: 0px;
   /* background-color: aliceblue; */
-  height: 67vh;
+  height: 65vh;
   min-height: 620px;
   text-align: right;
   justify-content: flex-end;
@@ -311,8 +311,6 @@ nav a:hover:before {
 #content1 {
   background-image: url("images/joya-cover.png");
   background-size: cover;
-  background-position-x: left;
-  background-position-y: top;
   filter: grayscale();
   transition: filter 0.5s;
 }
@@ -320,8 +318,6 @@ nav a:hover:before {
 #content2 {
   background-image: url("images/uws.png");
   background-size: cover;
-  background-position-x: left;
-  background-position-y: top;
   filter: grayscale();
   transition: filter 0.5s;
 }
@@ -329,8 +325,6 @@ nav a:hover:before {
 #content3 {
   background-image: url("images/webdev.png");
   background-size: cover;
-  background-position-x: left;
-  background-position-y: top;
   filter: grayscale();
   transition: filter 0.5s;
 }
