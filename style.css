@@ -177,7 +177,7 @@ nav a:hover:before {
   padding: 15px 15px;
   padding-right: 0px;
   /* background-color: aliceblue; */
-  height: 70vh;
+  height: 67vh;
   min-height: 620px;
   text-align: right;
   justify-content: flex-end;
@@ -242,6 +242,7 @@ nav a:hover:before {
   .hero > h1 {
     font-size: 80px;
     line-height: 80px;
+    margin-top: 0px;
   }
   .hero > h3 {
     font-size: 17.5px;
@@ -316,7 +317,7 @@ nav a:hover:before {
 }
 
 #content2 {
-  background-image: url("images/uws.PNG");
+  background-image: url("images/uws.png");
   background-size: cover;
   background-position-y: bottom;
   filter: grayscale();
