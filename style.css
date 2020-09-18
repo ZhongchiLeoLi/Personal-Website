@@ -142,7 +142,7 @@ nav a:hover:before {
 
 @media (max-width: 780px) {
   header {
-    padding: 30px 5px;
+    padding: 20px 5px;
   }
   header > img {
     max-width: 40px;
@@ -311,7 +311,7 @@ nav a:hover:before {
 #content1 {
   background-image: url("images/joya-cover.png");
   background-size: cover;
-  background-position-y: bottom;
+  background-position: center;
   filter: grayscale();
   transition: filter 0.5s;
 }
@@ -319,7 +319,7 @@ nav a:hover:before {
 #content2 {
   background-image: url("images/uws.png");
   background-size: cover;
-  background-position-y: bottom;
+  background-position: center;
   filter: grayscale();
   transition: filter 0.5s;
 }
@@ -327,7 +327,7 @@ nav a:hover:before {
 #content3 {
   background-image: url("images/webdev.png");
   background-size: cover;
-  background-position-y: bottom;
+  background-position: center;
   filter: grayscale();
   transition: filter 0.5s;
 }
