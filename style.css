@@ -246,6 +246,30 @@ nav a:hover:before {
   margin-bottom: 0px;
 }
 
+@media (max-height: 750px) {
+  .hero > h1 {
+    font-size: 7.2rem;
+    line-height: 6.7rem;
+    margin-top: 0px;
+  }
+  .hero > h3 {
+    font-size: 1.4rem;
+  }
+  .social > a {
+    font-size: 1.3rem;
+  }
+  .cta {
+    padding-top: 0.8rem;
+  }
+  .cta > p {
+    font-size: 1rem;
+  }
+  .cta img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
 @media (max-width: 780px) {
   /* .hero {
     height: 40vh;
@@ -396,6 +420,15 @@ nav a:hover:before {
 
 .button-container a:hover:before {
   content: "// ";
+}
+
+@media (max-height: 750px) {
+  .project {
+    height: 550px;
+  }
+  .content {
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 982px) {
