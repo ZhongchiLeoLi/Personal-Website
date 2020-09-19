@@ -110,7 +110,7 @@ nav a:hover:before {
   display: flex;
   /* align-items: center; */
   /* justify-content: center; */
-  max-width: 30vw;
+  max-width: 50%;
   height: auto;
 }
 
@@ -198,8 +198,8 @@ nav a:hover:before {
 
 .text > img {
   margin: 5% auto;
-  max-width: 1200px;
   width: 100%;
+  max-width: 1200px;
 }
 
 .grey {
