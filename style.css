@@ -14,6 +14,14 @@
   font-family: Valorant;
   src: url("fonts/Valorant\ Font.ttf");
 }
+@font-face {
+  font-family: Spiegel;
+  src: url("fonts/Spiegel.ttf");
+}
+@font-face {
+  font-family: Spiegel-bold;
+  src: url("fonts/Spiegel_Bold.ttf");
+}
 
 body {
   max-width: 1200px;
@@ -52,7 +60,7 @@ header > img {
 nav {
   width: 25vw;
   min-width: 400px;
-  font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+  font-family: Spiegel;
   font-style: normal;
   font-weight: bolder;
   letter-spacing: 0.05em;
@@ -99,7 +107,7 @@ nav a:hover:before {
   margin-left: 15px;
   padding: 15px 20px;
   text-decoration: none;
-  font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+  font-family: Spiegel;
   line-height: 1.22222;
   font-weight: bolder;
   letter-spacing: 0.05em;
@@ -205,7 +213,7 @@ nav a:hover:before {
 }
 
 .hero > h3 {
-  font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+  font-family: Spiegel;
   font-style: normal;
   font-weight: bold;
   letter-spacing: 0.05em;
@@ -240,7 +248,7 @@ nav a:hover:before {
 }
 
 .cta > p {
-  font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+  font-family: Spiegel;
   font-size: 1.125rem;
   font-weight: 600;
   margin-bottom: 0px;
@@ -501,7 +509,7 @@ footer {
 }
 
 footer > p {
-  font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+  font-family: Spiegel;
   font-weight: bold;
   font-size: 0.9375rem;
 }
