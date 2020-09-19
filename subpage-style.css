@@ -319,7 +319,7 @@ footer a:active:before {
 }
 
 @media (max-height: 750px) {
-  .column img {
+  #hero img {
     margin: 0px 0px;
   }
   #hero .text {
