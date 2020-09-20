@@ -388,6 +388,26 @@ footer a:active:before {
 
 @media (max-width: 500px) {
   .social > a {
-    font-size: 4.5vw;
+    font-size: 6vw;
   }
+}
+
+#joya {
+  background-image: url("images/joyaback.png");
+  background-size: contain;
+}
+
+#uws {
+  background-image: url("images/uwsback.png");
+  background-size: contain;
+}
+
+#web {
+  background-image: url("images/webdevback.png");
+  background-size: contain;
+}
+
+.short {
+  border: 0.125rem solid black;
+  margin-top: 0px;
 }
