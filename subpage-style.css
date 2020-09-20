@@ -406,8 +406,3 @@ footer a:active:before {
   background-image: url("images/webdevback.png");
   background-size: contain;
 }
-
-.short {
-  border: 0.125rem solid black;
-  margin-top: 0px;
-}
