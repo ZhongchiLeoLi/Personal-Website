@@ -123,6 +123,7 @@ nav a:hover:before {
   /* height: 125px; */
   /* width: 80vw; */
   padding: 5px;
+  padding-right: 2rem;
 }
 
 .column .text > h1 {
@@ -135,6 +136,7 @@ nav a:hover:before {
   font-weight: 600;
   font-size: 1.1rem;
   margin: 0.5em 0px;
+  line-height: 1.7rem;
 }
 
 .column .text > a {
@@ -329,8 +331,63 @@ footer a:active:before {
     margin: 0px 0px;
     margin-bottom: 2rem;
   }
+  #profile {
+    max-height: 65vw;
+    width: auto;
+  }
+  @media (max-width: 550px) {
+    #profile {
+      max-width: 100vw;
+      height: auto;
+      margin-top: 40px;
+      max-height: none;
+    }
+  }
 }
 
 #gallery {
   max-width: 1200px;
+}
+
+#about {
+  background-image: url("images/about.png");
+  background-size: cover;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social > a {
+  color: white;
+  font-size: 1.7rem;
+  height: 54px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+  margin-top: 10px;
+  background-image: url("images/icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (max-height: 750px) {
+  .social > a {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .social > a {
+    font-size: 3vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .social > a {
+    font-size: 4.5vw;
+  }
 }
