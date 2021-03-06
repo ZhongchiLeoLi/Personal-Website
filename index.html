@@ -5,124 +5,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zhongchi Leo Li</title>
-    <link rel="stylesheet" type="text/css" href="./style.css" />
-    <script
-      src="https://kit.fontawesome.com/c8e4d183c2.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   </head>
+  <style>
+      body>div {
+        height: 100vh; 
+        display: flex; 
+        flex-direction: row; 
+        align-items: center;
+      }
+      .container>div {
+            width: 50%;
+        }
+      .container img {
+        height: 30rem;
+        width: 30rem;
+      }
+      @media (max-width: 720px) {
+        body>div {
+            flex-direction: column;
+            justify-content: center;
+        }
+        .container>div {
+            width: 100%;
+            margin-bottom: 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .container img {
+            height: 15rem;
+            width: 15rem;
+        }
+      }
+  </style>
   <body>
-    <header id="header">
-      <a href="index.html">
-        <img id="header-img" src=images/logo.svg alt="logo" /></a
-      >
-      <nav id="nav-bar">
-        <ul>
-          <li><a class="nav-link" href="">Projects</a></li>
-          <li>
-            <a class="nav-link" href="Zhongchi (Leo) Li - Resume.pdf" target="#"
-              >Resume</a
-            >
-          </li>
-          <li><a class="nav-link" href="about.html">About</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="sidenav">
-      <a class="active" href="#intro">INTRO</a>
-      <a href="#branding">BRANDING</a>
-      <a href="#uiux_design">UI/UX DESIGN</a>
-      <a href="#web_dev">WEB DEV</a>
+    <div class="container">
+        <div>
+            <h1>A new version of the site is currently being built.</h1>
+            <br>
+            <p>Come back later or visit the old version <a href="oldindex.html">here</a>.</p>
+        </div>
+        <div>
+            <!-- <h1>hello?</h1> -->
+            <img src="./images/character 16.svg" alt="">
+        </div>
     </div>
-    <div class="main">
-      <section class="hero" id="intro">
-        <h1>Zhongchi<br />LEO Li</h1>
-        <h3>
-          Waterloo CS Student, UI/UX Designer, <br />Web Developer, Brand
-          Designer and Illustrator
-        </h3>
-        <div class="social">
-          <a href="https://github.com/ZhongchiLeoLi" target="_blank"
-            ><i class="fab fa-github"></i
-          ></a>
-          <a href="https://www.linkedin.com/in/lizhongchi" target="_blank"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
-          <a href="https://www.behance.net/leolee15" target="_blank"
-            ><i class="fab fa-behance"></i>
-          </a>
-          <a href="mailto:z977li@uwaterloo.ca"
-            ><i class="far fa-envelope"></i
-          ></a>
-        </div>
-        <div class="cta">
-          <p>SCROLL TO EXPLORE PROJECTS</p>
-          <img id="header-img" src=images/arrow.svg alt="logo" />
-        </div>
-      </section>
-      <section class="project" id="branding">
-        <div class="content" id="content1">
-          <div class="top-bar">
-            <div class="title">
-              <h3>Designing a brand for the joy of travelling</h3>
-              <!-- <h3>// Joya Travel & Lifestyle</h3> -->
-            </div>
-            <div class="icons">
-              <img src=images/mini.svg /> <img src=images/resd.svg /> <img
-              src=images/clos.svg />
-            </div>
-          </div>
-          <div class="button-container">
-            <a href="branding.html">VIEW PROJECT</a>
-          </div>
-        </div>
-      </section>
-      <section class="project" id="uiux_design">
-        <div class="content" id="content2">
-          <div class="top-bar">
-            <div class="title">
-              <h3>Redesigning the course selection process for students</h3>
-              <!-- <h3>// UW SCHEMATH</h3> -->
-            </div>
-            <div class="icons">
-              <img src=images/mini.svg /> <img src=images/resd.svg /> <img
-              src=images/clos.svg />
-            </div>
-          </div>
-          <div class="button-container">
-            <a href="ui-ux-design.html">VIEW PROJECT</a>
-          </div>
-        </div>
-      </section>
-      <section class="project" id="web_dev">
-        <div class="content" id="content3">
-          <div class="top-bar">
-            <div class="title">
-              <h3>Other websites I have built</h3>
-              <!-- <h3>// Other websites I built</h3> -->
-            </div>
-            <div class="icons">
-              <img src=images/mini.svg /> <img src=images/resd.svg /> <img
-              src=images/clos.svg />
-            </div>
-          </div>
-          <div class="button-container">
-            <a href="webdev.html">VIEW PROJECT</a>
-          </div>
-        </div>
-      </section>
-    </div>
-    <script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/zenscroll/4.0.2/zenscroll-min.js"></script>
-    <script src="scripts/main.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
   </body>
   <footer>
-    <hr />
-    <!-- <a href="http://www.freepik.com">Designed by rawpixel.com / Freepik</a> -->
-    <p>Designed and developed with fried chicken — 2020 Zhongchi (Leo) Li</p>
   </footer>
 </html>
