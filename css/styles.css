@@ -96,8 +96,22 @@ nav div {
     height: 60vh;
 }
 
-.intro .col-md-6:nth-child(2) {
+.intro .col-lg-6:nth-child(2) {
     text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .intro {
+        padding-top: 8rem;
+        padding-bottom: 2rem;
+    }
+    .intro h1 {
+        font-size: 5rem;
+        width: 100%;
+    }
+    .intro p {
+        font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 720px) {
@@ -115,7 +129,7 @@ nav div {
     .intro img {
         height: 30vh;
     }
-    .intro .col-md-6 {
+    .intro .col-lg-6 {
         text-align: center;
     }
     .row {
@@ -130,10 +144,10 @@ nav div {
 }
 
 .projects p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
-.col-md-6 img {
+.col-lg-6 img {
     max-width: 100%;
 }
 
@@ -159,10 +173,10 @@ nav div {
 
 .card-title {
     font-family:  sohne-halbfett;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1200px){
     .card-body {
         padding: 1.5rem !important;
     }
@@ -173,6 +187,7 @@ nav div {
         font-size: 1.3rem;
     }
 }
+
 
 /* ////////////////////////////////////////////////////////////////////////////// */
 /* CONTACT + FOOTER SECTION */
