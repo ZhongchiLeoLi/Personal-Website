@@ -133,28 +133,8 @@ nav div {
     font-size: 1.2rem;
 }
 
-.campsters {
-    background-image: url("./imgs/campsters.png");
-    background-size: cover;
-    background-position: center;
-}
-
-.paperboy {
-    background-image: url("./imgs/paperboy.png");
-    background-size: cover;
-    background-position: center;
-}
-
-.joya {
-    background-image: url("./imgs/joya.png");
-    background-size: cover;
-    background-position: center;
-}
-
-.webs {
-    background-image: url("./imgs/webs.png");
-    background-size: cover;
-    background-position: center;
+.col-md-6 img {
+    max-width: 100%;
 }
 
 .card {
