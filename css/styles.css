@@ -102,7 +102,7 @@ nav div {
 
 @media (max-width: 1200px) {
     .intro {
-        padding-top: 8rem;
+        padding-top: 6rem;
         padding-bottom: 2rem;
     }
     .intro h1 {
@@ -115,10 +115,6 @@ nav div {
 }
 
 @media (max-width: 720px) {
-    .intro {
-        padding-top: 7rem;
-        padding-bottom: 3rem;
-    }
     .intro h1 {
         font-size: 3.5rem;
         width: 100%;
