@@ -1,0 +1,142 @@
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* INTRO SECTION */
+
+.intro {
+    padding-top: 5rem;
+}
+
+.intro h1 {
+    width: 90%;
+    font-size: 4rem; 
+}
+
+.intro h2 {
+    width: 90%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-family: sohne-halbfett;
+}
+
+.intro p {
+    width: 90%;
+    font-size: 1.2rem;
+}
+
+
+.intro .col-lg-5 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.row img {
+    width: 90%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+@media (max-width: 991px) {
+    .intro h1, .intro h2, .intro img, .intro p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 720px) {
+    .intro {
+        padding-top: 3rem;
+    }
+    .intro img {
+        margin-bottom: 2rem;
+    }
+    .intro h1 {
+        font-size: 2.5rem;
+    }
+    .intro h2 {
+        font-size: 1.1rem;
+    }
+    .intro p {
+        font-size: 1rem;
+        padding-bottom: 1.5rem;
+    }
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* HOBBIES SECTION */
+
+hr {
+    margin: 5rem 0;
+}
+
+.hobbies h2 {
+    font-family: sohne-halbfett;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hobbies p {
+    font-size: 1.1rem;
+}
+
+.hobbies img{
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.hobbies img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px 0 rgba(0,0,0,0.2);
+}
+
+.hobbies .col-lg-7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hobbies .col-lg-7 *{
+    width: 85%;
+}
+
+.is-right {
+    align-items: flex-end;
+}
+
+button {
+    border: none;
+    text-align: start;
+    padding: 0;
+}
+
+.modal-dialog {
+    max-height: 100vh;
+    text-align: center;
+}
+
+.modal-dialog img {
+    max-height: 95vh;
+    max-width: 95vw;
+}
+
+
+@media (max-width: 991px) {
+    .hobbies .col-lg-7 *{
+        width: 100%;
+    }
+    .is-right {
+        align-items: center;
+    }
+    .hobbies h2 {
+        font-family: sohne-halbfett;
+        font-size: 1.8rem;
+        margin-top: 1.5rem;
+    }
+    .hobbies p {
+        font-size: 1rem;
+    }
+    .hobbies p:nth-child(1) {
+        font-size: 1.1rem;
+    }
+}
