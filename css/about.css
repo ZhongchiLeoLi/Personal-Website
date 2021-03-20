@@ -7,15 +7,19 @@
 
 .intro h1 {
     width: 90%;
-    font-size: 4rem; 
+    font-size: 5rem; 
+    margin-bottom: 0;
+    /* line-height: 1; */
 }
 
 .intro h2 {
+    /* margin-bottom: 0; */
     width: 90%;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1.7rem;
+    padding-bottom: 1.7rem;
     font-size: 1.5rem;
-    font-family: sohne-halbfett;
+    font-weight: 600;
+    /* font-family: sohne-halbfett; */
 }
 
 .intro p {
@@ -82,6 +86,7 @@ hr {
     height: 50vh;
     width: 100%;
     object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
 }
 
