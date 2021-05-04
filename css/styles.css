@@ -92,7 +92,7 @@ nav div {
 
 .intro p {
     font-family: sohne-buch;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 .intro img {
@@ -172,6 +172,34 @@ nav div {
 .card-title {
     font-family:  sohne-halbfett;
     font-size: 1.8rem;
+}
+
+.card-links {
+    display: flex;
+}
+
+.card-link {
+    display: flex;    
+}
+
+.card-link>p {
+    margin-bottom: 0;
+}
+
+.card-link:hover {
+    opacity: 70%;
+    transition: 0.3s;
+}
+
+.card-link:hover .arrow{
+    -moz-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    -o-transform: translateX(16px);
+    -webkit-transform: translateX(16px);
+    transform: translateX(16px);
+
+    opacity: 70%;
+    transition: 0.3s;
 }
 
 @media (max-width: 1400px){
