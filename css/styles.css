@@ -181,6 +181,9 @@ nav div {
 .card-link {
     display: flex;    
 }
+.first {
+    margin-right: 2.5rem;
+}
 
 .card-link>p {
     margin-bottom: 0;
@@ -223,6 +226,9 @@ nav div {
 @media (max-width: 991px) {
     .col-lg-6 img {
         border-radius: 0.5rem 0.5rem 0 0;
+    }
+    .first {
+        margin-right: 1rem;
     }
 }
 
